@@ -34,6 +34,7 @@ body{
     margin-left: 35px;
     display: flex;
     font-size: 10px;
+    text-align: right;
 }
 #buttons{
     /* background-color: white; */
