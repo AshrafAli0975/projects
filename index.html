@@ -5,60 +5,61 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style copy.css">
+    
+
 </head>
-<body>
-    
-    <div id="cont">
-        <div id="calc"> 
-            Calculator
+<body >
+  
+
+
+<div id="wrapper">
+    <div id="white">
+      <div id="calc">
+        <div id="val"></div>
+        <!-- <div id="val"></div> -->
+      </div>
+      <div id="buttons">
+        <div id="row1">
+          <button class="recl" class="extra" id="clr">C</button>
+          <button class="recl" class="extra" id="clr">NF</button>
+          <button class="recl" class="extra" id="mod">%</button>
+          <button class="recl" class="extra" id="div">/</button>
         </div>
-        <div id="evalu">
-            enter...
-        </div>
-
-        <div id="buttons">
-<div class="dot">
-    <button  class="but" class="orange" id="ac" >AC</button>
-    <button class="but"  class="orange" id="back">NaN</button>
-    <button class="but" class="orange" id="per">%</button>
-    <button class="but" class="orange" id="divide">/</button>
-    
-</div>
-<div class="dot">
-    <button class="but" id="seven">7</button>
-    <button  class="but" id="eight">8</button>
-    <button class="but" id="nine">9</button>
-    <button class="but" id="multiply" class="orange">*</button>
-</div>
-<div class="dot">
-    <button class="but" id="four">4</button>
-    <button class="but" id="five">5</button>
-    <button class="but" id="six">6</button>
-    <button class="but" id="minus" class="orange">-</button>
-</div>
-<div class="dot">
-    <button class="but" id="one">1</button>
-    <button class="but" id="two">2</button>
-    <button class="but" id="three">3</button>
-    <button class="but" id="plus" class="orange">+</button>
-</div>
-
-</div>
-<button id="equal">=</button>
-
+        <div id="row2">
+          <button class="recl" id="sev">7</button>
+          <button class="recl" id="eigh">8</button>
+          <button class="recl" id="nine">9</button>
+          <button class="recl" id="mult" class="extra">×</button>
         </div>
 
-
-
-
-
-
-
-
+        <div id="row3">
+          <button class="recl" id="for">4</button>
+          <button class="recl" id="fiv">5</button>
+          <button class="recl" id="six">6</button>
+          <button class="recl" id="minu" class="extra">-</button>
+        </div>
+        <div id="row4">
+          <button class="recl" id="onen">1</button>
+          <button class="recl" id="two">2</button>
+          <button class="recl" id="thr">3</button>
+          <button class="recl" class="extra" id="plus">+</button>
+        </div>
+        <div id="row5">
+          <button class="recl" id="zer">0</button>
+          <button class="recl" id="fot">.</button>
+          <button class="recl" id="nan" style="display: none;"></button>
+          <button class="recl" id="equal" class="extra">=</button>
+          <!-- <button id="clear" >NaN</button> -->
+        </div>
+      </div>
     </div>
+  </div>
 
+ 
 
-
-    <script src="script.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="cript.js"></script>
 </body>
 </html>
