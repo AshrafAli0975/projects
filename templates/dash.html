@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Dashboard</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .dashboard {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-gap: 20px;
+            padding: 20px;
+        }
+        .card {
+            background-color: #f0f0f0;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h2 {
+            margin-top: 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="dashboard">
+        <div class="card">
+            <h2>Widget 1</h2>
+            <p>This is the content of widget 1.</p>
+        </div>
+        <div class="card">
+            <h2>Widget 2</h2>
+            <p>This is the content of widget 2.</p>
+        </div>
+        <div class="card">
+            <h2>Widget 3</h2>
+            <p>This is the content of widget 3.</p>
+        </div>
+    </div>
+</body>
+</html>
